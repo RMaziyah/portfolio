@@ -573,6 +573,12 @@ section {
   z-index: 1;
 }
 
+.portfolio .portfolio-wrap img {
+  width: 300px; /* Set desired width */
+  height: 220px; /* Set desired height */
+  object-fit: cover; /* Ensures images are cropped to fit */
+}
+
 .portfolio .portfolio-wrap::before {
   content: "";
   background: rgba(255, 255, 255, 0.5);
